@@ -73,6 +73,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
+    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &219765602
 GameObject:
@@ -85,9 +86,10 @@ GameObject:
   - 33: {fileID: 219765605}
   - 65: {fileID: 219765604}
   - 23: {fileID: 219765603}
+  - 114: {fileID: 219765607}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Tile 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,6 +148,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &219765607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 219765602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724da0b79afac4e608ca15788dbb2d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  game: {fileID: 0}
 --- !u!1001 &725151078
 Prefab:
   m_ObjectHideFlags: 0
@@ -185,6 +199,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 172108, guid: 004793e20d3d44f58ae61db272d3fe8b, type: 2}
+      propertyPath: m_TagString
+      value: Tile 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 004793e20d3d44f58ae61db272d3fe8b, type: 2}
   m_RootGameObject: {fileID: 985179452}
@@ -202,6 +220,7 @@ GameObject:
   - 92: {fileID: 842045753}
   - 124: {fileID: 842045752}
   - 81: {fileID: 842045751}
+  - 114: {fileID: 842045756}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -274,6 +293,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &842045756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 842045750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0d344e13cd314abbaf3a01b842ff88b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickedGameObject: {fileID: 0}
 --- !u!1 &985179452
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,9 +316,10 @@ GameObject:
   - 33: {fileID: 985179455}
   - 65: {fileID: 985179454}
   - 23: {fileID: 985179453}
+  - 114: {fileID: 985179457}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Tile 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -346,6 +378,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &985179457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985179452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724da0b79afac4e608ca15788dbb2d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  game: {fileID: 0}
 --- !u!1001 &1655800270
 Prefab:
   m_ObjectHideFlags: 0
@@ -384,6 +428,10 @@ Prefab:
     - target: {fileID: 472108, guid: 004793e20d3d44f58ae61db272d3fe8b, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 172108, guid: 004793e20d3d44f58ae61db272d3fe8b, type: 2}
+      propertyPath: m_TagString
+      value: Tile 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 004793e20d3d44f58ae61db272d3fe8b, type: 2}
