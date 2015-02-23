@@ -1,13 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Game : MonoBehaviour {
-
+public class Game : MonoBehaviour
+{
 	public GameObject clickedGameObject;
-	
-	public void DoSomethingToClicked(GameObject clickedOn)
+
+	public void Start()
+	{
+		clickedGameObject = null;
+	}
+
+	public void setSelected(GameObject clickedOn)
 	{
 		clickedGameObject = clickedOn;
-		print ("hi i ran.");
+	}
+
+	public GameObject getSelected()
+	{
+		return clickedGameObject;
 	}
 }
