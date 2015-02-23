@@ -4,58 +4,49 @@ using System.Collections;
 public class Cube : MonoBehaviour
 {
 	public Game game;
-	
-	void Start()
-	{
+
+	void Start() {
 		game = GameObject.Find("Main Camera").GetComponent<Game>();
 	}
 
 	public void OnMouseDown()
 	{
+		Cube selected = game.getSelected ();
+
 		// No currently selected cube
-		if (game.clickedGameObject == null)
-		{
-			game.setSelected(this.gameObject);
-			toggleHighlight(renderer.material.color);
+		if (selected == null) {
+			game.setSelected(this);
+			toggleHighlight(true);
 		}
-		else
-		{
-			print ("poop.");
+		else {
 			// Second clicked cube is the already selected cube
-			if (this.gameObject == game.clickedGameObject)
-			{
+			if (this == game.getSelected()) {
 				game.setSelected(null);
-				toggleHighlight(renderer.material.color, false);
+				toggleHighlight(false);
+				print("Same cube");
 			}
 			// Second clicked cube is not the same pattern
-			else if (game.clickedGameObject.tag != this.tag)
-			{
-				toggleHighlight(this.renderer.material.color, false);
-				toggleHighlight(game.clickedGameObject.renderer.material.color, false);
+			else if (!(selected.tag.Equals(this.tag))) {
+				toggleHighlight(false);
+				selected.toggleHighlight(false);
 				game.setSelected(null);
+				print ("different tag");
+				print ("this.tag: " + this.tag + "\nselected.tag: " + selected.tag);
 			}
 			// Second clicked cube is different tag, destroy both
-			else
-			{
+			else {
 				Destroy(this.gameObject);
-				Destroy(game.clickedGameObject);
+				Destroy(selected.gameObject);
 				game.setSelected(null);
+				print ("Should destroy both");
 			}
 		}
 	}
 
-	public void toggleHighlight(Color c)
-	{
-		toggleHighlight(c, true);
-	}
-	
-	private void toggleHighlight(Color c, bool off)
-	{
-		if (off)
-			c.a = 0.7f; // opacity to 70%
-		else if (!off)
-			c.a = 1.0f;
-		
+	private void toggleHighlight(bool toggleOn) {
+		Color c = renderer.material.color;
+		if (toggleOn) c.a = 0.7f; // opacity to 70%
+		else c.a = 1.0f;
 		renderer.material.color = c;
 	}
 }

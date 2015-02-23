@@ -3,20 +3,15 @@ using System.Collections;
 
 public class Game : MonoBehaviour
 {
-	public GameObject clickedGameObject;
+	public Cube clickedCube;
 
-	public void Start()
+	public void setSelected(Cube clickedOn)
 	{
-		clickedGameObject = null;
+		clickedCube = clickedOn;
 	}
 
-	public void setSelected(GameObject clickedOn)
+	public Cube getSelected()
 	{
-		clickedGameObject = clickedOn;
-	}
-
-	public GameObject getSelected()
-	{
-		return clickedGameObject;
+		return clickedCube;
 	}
 }
