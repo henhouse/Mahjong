@@ -51,23 +51,18 @@ public class Cube : MonoBehaviour
 
 	public bool twoSidesOpen() {
 		int numCollided = 0;
-		float rayDistance = .7f;
+		float rayDistance = 1f;
 
-		Vector3 up = transform.TransformDirection (Vector3.up);
-		Vector3 down = transform.TransformDirection (Vector3.down);
 		Vector3 left = transform.TransformDirection (Vector3.left);
 		Vector3 right = transform.TransformDirection (Vector3.right);
 
-		bool upCollided = Physics.Raycast (transform.position, up, rayDistance);
-		bool downCollided = Physics.Raycast (transform.position, down, rayDistance);
 		bool leftCollided = Physics.Raycast (transform.position, left, rayDistance);
 		bool rightCollided = Physics.Raycast (transform.position, right, rayDistance);
 
-		if (upCollided) numCollided++;
-		if (downCollided) numCollided++;
 		if (leftCollided) numCollided++;
 		if (rightCollided) numCollided++;
-		if (numCollided > 2) return false;
+
+		if (numCollided > 1) return false;
 		else return true;
 	}
 
