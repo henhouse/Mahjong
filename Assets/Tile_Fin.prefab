@@ -10,11 +10,9 @@ GameObject:
   - 4: {fileID: 419282}
   - 33: {fileID: 3319282}
   - 23: {fileID: 2319282}
-  - 95: {fileID: 9584502}
-  - 114: {fileID: 11471128}
   - 65: {fileID: 6548124}
-  - 65: {fileID: 6519282}
-  - 114: {fileID: 11419282}
+  - 114: {fileID: 11424292}
+  - 114: {fileID: 11412090}
   m_Layer: 0
   m_Name: Tile_Fin
   m_TagString: Untagged
@@ -61,18 +59,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119282}
   m_Mesh: {fileID: 4300000, guid: 8ddd0bfe2b9f043bfb14b49f926d81b4, type: 3}
---- !u!65 &6519282
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 119282}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6548124
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -85,22 +71,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .00720499968, y: .00999999978, z: .00999999978}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!95 &9584502
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 119282}
-  m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: 8ddd0bfe2b9f043bfb14b49f926d81b4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11419282
+--- !u!114 &11412090
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -112,7 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 0}
---- !u!114 &11471128
+--- !u!114 &11424292
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

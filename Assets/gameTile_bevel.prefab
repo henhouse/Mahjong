@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 459620}
   - 33: {fileID: 3359620}
   - 23: {fileID: 2359620}
-  - 95: {fileID: 9559620}
+  - 65: {fileID: 6579152}
   m_Layer: 0
   m_Name: gameTile_bevel
   m_TagString: Untagged
@@ -42,7 +42,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 3f2888a7275724384ba5af0c63334edd, type: 2}
+  - {fileID: 2100000, guid: 27f03c90eeceb48bca27bc091d4048c8, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -57,21 +57,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159620}
   m_Mesh: {fileID: 4300000, guid: 8ddd0bfe2b9f043bfb14b49f926d81b4, type: 3}
---- !u!95 &9559620
-Animator:
-  serializedVersion: 3
+--- !u!65 &6579152
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 8ddd0bfe2b9f043bfb14b49f926d81b4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 2
+  m_Size: {x: .00720499968, y: .00999999978, z: .00999999978}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
