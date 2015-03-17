@@ -73,6 +73,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
+    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &19773877
 GameObject:
@@ -217,8 +218,8 @@ GameObject:
   - 23: {fileID: 31606140}
   - 114: {fileID: 31606139}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,11 +266,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 29369399}
   m_GameObject: {fileID: 31606138}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &31606142
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -477,8 +478,8 @@ GameObject:
   - 23: {fileID: 163164320}
   - 114: {fileID: 163164319}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -525,11 +526,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 602698412}
   m_GameObject: {fileID: 163164318}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &163164322
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -563,8 +564,8 @@ GameObject:
   - 23: {fileID: 226474127}
   - 114: {fileID: 226474126}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -611,11 +612,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 1105999077}
   m_GameObject: {fileID: 226474125}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &226474129
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -805,7 +806,7 @@ Transform:
   m_PrefabInternal: {fileID: 1976848904}
   m_GameObject: {fileID: 352210877}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.07999992, y: -1.99000001, z: 0}
+  m_LocalPosition: {x: 2.08999991, y: -1.99000001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -823,8 +824,8 @@ GameObject:
   - 23: {fileID: 373797641}
   - 114: {fileID: 373797640}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -871,11 +872,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 1949787041}
   m_GameObject: {fileID: 373797639}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &373797643
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1217,8 +1218,8 @@ GameObject:
   - 23: {fileID: 544888545}
   - 114: {fileID: 544888544}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1265,11 +1266,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 573667089}
   m_GameObject: {fileID: 544888543}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &544888547
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1675,7 +1676,7 @@ Transform:
   m_PrefabInternal: {fileID: 1947239538}
   m_GameObject: {fileID: 683815848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.76000023, y: -2.99000001, z: 0}
+  m_LocalPosition: {x: 5.73999977, y: -2.99000001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2052,8 +2053,8 @@ GameObject:
   - 23: {fileID: 917299757}
   - 114: {fileID: 917299756}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2100,11 +2101,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 911008023}
   m_GameObject: {fileID: 917299755}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &917299759
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2268,8 +2269,8 @@ GameObject:
   - 23: {fileID: 1018734302}
   - 114: {fileID: 1018734301}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2316,11 +2317,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 1127264525}
   m_GameObject: {fileID: 1018734300}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1018734304
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2874,8 +2875,8 @@ GameObject:
   - 23: {fileID: 1217889009}
   - 114: {fileID: 1217889008}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2922,11 +2923,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 386124190}
   m_GameObject: {fileID: 1217889007}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1217889011
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3176,8 +3177,8 @@ GameObject:
   - 23: {fileID: 1493408179}
   - 114: {fileID: 1493408178}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3224,11 +3225,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 1987891633}
   m_GameObject: {fileID: 1493408177}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1493408181
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3306,8 +3307,8 @@ GameObject:
   - 23: {fileID: 1529819042}
   - 114: {fileID: 1529819041}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3354,11 +3355,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 1148924960}
   m_GameObject: {fileID: 1529819040}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1529819044
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3392,8 +3393,8 @@ GameObject:
   - 23: {fileID: 1651561798}
   - 114: {fileID: 1651561797}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3440,11 +3441,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 1960020110}
   m_GameObject: {fileID: 1651561796}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1651561800
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3478,8 +3479,8 @@ GameObject:
   - 23: {fileID: 1702467644}
   - 114: {fileID: 1702467643}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3526,11 +3527,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 944016962}
   m_GameObject: {fileID: 1702467642}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1702467646
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3868,8 +3869,8 @@ GameObject:
   - 23: {fileID: 1823165445}
   - 114: {fileID: 1823165444}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3916,11 +3917,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 775235439}
   m_GameObject: {fileID: 1823165443}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1823165447
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3954,8 +3955,8 @@ GameObject:
   - 23: {fileID: 1892223429}
   - 114: {fileID: 1892223428}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4002,11 +4003,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 326358148}
   m_GameObject: {fileID: 1892223427}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1892223431
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4084,8 +4085,8 @@ GameObject:
   - 23: {fileID: 1900422010}
   - 114: {fileID: 1900422009}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4132,11 +4133,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 2137608908}
   m_GameObject: {fileID: 1900422008}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1900422012
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4166,7 +4167,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 455526, guid: 0367bcc925b5da1429a53caae32edc89, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5.76000023
+      value: 5.73999977
       objectReference: {fileID: 0}
     - target: {fileID: 455526, guid: 0367bcc925b5da1429a53caae32edc89, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4298,7 +4299,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 455526, guid: 0367bcc925b5da1429a53caae32edc89, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.07999992
+      value: 2.08999991
       objectReference: {fileID: 0}
     - target: {fileID: 455526, guid: 0367bcc925b5da1429a53caae32edc89, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4539,8 +4540,8 @@ GameObject:
   - 23: {fileID: 2031064813}
   - 114: {fileID: 2031064812}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4587,11 +4588,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 378689038}
   m_GameObject: {fileID: 2031064811}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &2031064815
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4625,8 +4626,8 @@ GameObject:
   - 23: {fileID: 2033066275}
   - 114: {fileID: 2033066274}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4673,11 +4674,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 629512126}
   m_GameObject: {fileID: 2033066273}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &2033066277
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4797,8 +4798,8 @@ GameObject:
   - 23: {fileID: 2113908307}
   - 114: {fileID: 2113908306}
   m_Layer: 0
-  m_Name: Tile_1
-  m_TagString: Tile 1
+  m_Name: Cube
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4845,11 +4846,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 131797384}
   m_GameObject: {fileID: 2113908305}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46995878, y: 1.46995831, z: 1}
-  m_Center: {x: -.0156652927, y: -.0156655312, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &2113908309
 MeshFilter:
   m_ObjectHideFlags: 0
