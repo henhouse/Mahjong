@@ -14,7 +14,7 @@ GameObject:
   - 114: {fileID: 11455526}
   m_Layer: 0
   m_Name: Tile_3
-  m_TagString: Tile 2
+  m_TagString: Tile 3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
