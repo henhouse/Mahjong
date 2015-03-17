@@ -51,7 +51,7 @@ public class Cube : MonoBehaviour
 
 	public bool twoSidesOpen() {
 		int numCollided = 0;
-		float rayDistance = .7f;
+		float rayDistance = 1f;
 
 		Vector3 up = transform.TransformDirection (Vector3.up);
 		Vector3 down = transform.TransformDirection (Vector3.down);
@@ -67,7 +67,8 @@ public class Cube : MonoBehaviour
 		if (downCollided) numCollided++;
 		if (leftCollided) numCollided++;
 		if (rightCollided) numCollided++;
-		if (numCollided > 2) return false;
+
+		if (numCollided > 1) return false;
 		else return true;
 	}
 
