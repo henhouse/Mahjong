@@ -3,11 +3,23 @@
 --- !u!78 &1
 TagManager:
   tags:
+<<<<<<< HEAD
   - 
   - Tile 2
   - Tile 3
   - Tile 1
   - Tile 4
+=======
+  - Wind
+  - Fire
+  - Earth
+  - Water
+  - Ice
+  - Wood
+  - Lightning
+  - Metal
+  - Spirit
+>>>>>>> f094aa80cae847c899df0f7f046f5212f551e5d4
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
