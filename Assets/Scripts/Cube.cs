@@ -40,6 +40,7 @@ public class Cube : MonoBehaviour
 					print ("Two sides open, should destroy both.");
 					Destroy(this.gameObject);
 					Destroy(selected.gameObject);
+					Util.matches--;
 				} else {
 					game.setSelected(null);
 					selected.toggleHighlight(false);
@@ -65,7 +66,6 @@ public class Cube : MonoBehaviour
 		if (numCollided > 1) return false;
 		else return true;
 	}
-
 
 	private void toggleHighlight(bool toggleOn) {
 		Color c = renderer.material.color;
