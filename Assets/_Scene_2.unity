@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1818b36a37ff346cca53249479408768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: {fileID: 1964014735}
+  timeScore: {fileID: 1964014735}
   matchesLeft: {fileID: 211052408}
   youWin: {fileID: 251812528}
 --- !u!1001 &216911518
@@ -1236,7 +1236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1818b36a37ff346cca53249479408768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: {fileID: 1964014735}
+  timeScore: {fileID: 1964014735}
   matchesLeft: {fileID: 211052408}
   youWin: {fileID: 251812528}
 --- !u!4 &251812530
@@ -4837,7 +4837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1818b36a37ff346cca53249479408768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: {fileID: 1964014735}
+  timeScore: {fileID: 1964014735}
   matchesLeft: {fileID: 211052408}
   youWin: {fileID: 251812528}
 --- !u!132 &1964014735
