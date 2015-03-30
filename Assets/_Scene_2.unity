@@ -4848,7 +4848,7 @@ GUIText:
   m_GameObject: {fileID: 1964014733}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: 'Matches Left: '
+  m_Text: 'Time: '
   m_Anchor: 0
   m_Alignment: 0
   m_PixelOffset: {x: 20, y: -60}

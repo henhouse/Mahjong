@@ -19,7 +19,7 @@ public class Util : MonoBehaviour {
 	void Update()
 	{
 		if (!won) {
-			time += Time.deltaTime;
+			time += Time.deltaTime / 3;
 			timeScore.text = "Time: " + time;
 			//Application.LoadLevel (0);
 		}
